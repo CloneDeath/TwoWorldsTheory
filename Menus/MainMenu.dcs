@@ -1,0 +1,85 @@
+{
+  "FileVersion": 1,
+  "Name": "MainMenu",
+  "Id": "59a9f30f-1ed3-4742-b847-2fa72728f584",
+  "Size": {
+    "Width": 256,
+    "Height": 240
+  },
+  "BackgroundColor": {
+    "Red": 0,
+    "Green": 0,
+    "Blue": 0,
+    "Alpha": 255
+  },
+  "Elements": [
+    {
+      "HorizontalAlignment": "Left",
+      "VerticalAlignment": "Top",
+      "Text": "Two Worlds Theory",
+      "FontSize": 26,
+      "Color": {
+        "Red": 255,
+        "Green": 255,
+        "Blue": 255
+      },
+      "TextTransform": "None",
+      "Name": "Title",
+      "Id": "6936a190-c8ca-4e0b-982d-9ed05462e8c0",
+      "Type": "Label",
+      "Region": {
+        "X": 5,
+        "Y": 0,
+        "Width": 256,
+        "Height": 0
+      }
+    },
+    {
+      "FontSize": 8,
+      "Color": {
+        "Red": 255,
+        "Green": 255,
+        "Blue": 255
+      },
+      "TextTransform": "None",
+      "Options": [
+        {
+          "Text": "Start",
+          "Id": "e6f8ede9-aa48-44dd-9eb2-9e3657525665",
+          "OnSelect": [
+            {
+              "SetCharacter": "../Player/Player.dcc"
+            },
+            {
+              "SetLevel": "../Level/TestLevel/TestLevel.dcl"
+            },
+            {
+              "Scene": {
+                "Push": "Gameplay.dcs"
+              }
+            }
+          ]
+        },
+        {
+          "Text": "Quit",
+          "Id": "92e4b1af-4dfb-43da-a078-8e78f6733e89",
+          "OnSelect": [
+            {
+              "Game": "Quit"
+            }
+          ]
+        }
+      ],
+      "Name": "Menu",
+      "Id": "7e5ad483-0309-4ee8-ab48-441f6730ee49",
+      "Type": "OptionList",
+      "Region": {
+        "X": 55,
+        "Y": 55,
+        "Width": 201,
+        "Height": 0
+      }
+    }
+  ],
+  "Events": []
+}

@@ -1,5 +1,14 @@
 {
+  "FileVersion": 1,
   "Name": "TwoWorldsTheory",
   "Version": "0.0",
-  "StartScene": ""
+  "StartScene": "Menus/MainMenu.dcs",
+  "Variables": [
+    {
+      "DefaultValue": true,
+      "Id": "ac98ca66-95ac-4887-bbe4-0d97b453d713",
+      "Name": "In Nature",
+      "Type": "Boolean"
+    }
+  ]
 }

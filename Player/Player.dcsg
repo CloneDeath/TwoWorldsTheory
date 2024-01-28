@@ -1,0 +1,19 @@
+{
+  "File": "Player.png",
+  "Width": 16,
+  "Height": 16,
+  "XSeparation": 0,
+  "YSeparation": 0,
+  "XOffset": 0,
+  "YOffset": 0,
+  "Sprites": [
+    {
+      "Id": "9963bf78-02c0-48b9-805e-d1e7ff7f4262",
+      "X": 0,
+      "Y": 0,
+      "Name": "Idle",
+      "FlipHorizontal": false
+    }
+  ],
+  "FileVersion": 1
+}

@@ -1,0 +1,51 @@
+{
+  "FileVersion": 1,
+  "Name": "Player",
+  "Enabled": true,
+  "WalkSpeed": 6.0,
+  "JumpHeight": 6.0,
+  "Gravity": 10.0,
+  "Height": 16.0,
+  "Width": 8.0,
+  "DefaultWeapon": "",
+  "Animations": [
+    {
+      "Id": "2546359c-96d1-4907-98d2-682927230a87",
+      "Name": "Idle",
+      "Frames": [
+        {
+          "Duration": 1.0,
+          "Source": "Player.dcsg",
+          "SpriteId": "9963bf78-02c0-48b9-805e-d1e7ff7f4262",
+          "Origin": {
+            "Anchor": {
+              "X": 0,
+              "Y": 1
+            },
+            "Offset": {
+              "X": 0,
+              "Y": 0
+            }
+          },
+          "Slots": [],
+          "HitBox": {
+            "X": 4,
+            "Y": 0,
+            "Width": 8,
+            "Height": 0
+          }
+        }
+      ]
+    }
+  ],
+  "WalkAnimation": "2546359c-96d1-4907-98d2-682927230a87",
+  "IdleAnimation": "2546359c-96d1-4907-98d2-682927230a87",
+  "JumpAnimation": "2546359c-96d1-4907-98d2-682927230a87",
+  "CrouchAnimation": "2546359c-96d1-4907-98d2-682927230a87",
+  "StairsUpAnimation": "2546359c-96d1-4907-98d2-682927230a87",
+  "StairsDownAnimation": "2546359c-96d1-4907-98d2-682927230a87",
+  "StandAttackAnimation": "2546359c-96d1-4907-98d2-682927230a87",
+  "JumpAttackAnimation": "2546359c-96d1-4907-98d2-682927230a87",
+  "StairsUpAttackAnimation": "2546359c-96d1-4907-98d2-682927230a87",
+  "StairsDownAttackAnimation": "2546359c-96d1-4907-98d2-682927230a87"
+}

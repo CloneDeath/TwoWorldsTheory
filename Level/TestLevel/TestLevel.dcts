@@ -1,0 +1,397 @@
+{
+  "Name": "TestLevel",
+  "Id": "b4e8e4b2-fbb1-467a-a0be-450151a62e0f",
+  "FileVersion": 1,
+  "Tiles": [
+    {
+      "Id": "53a642ea-616e-4218-841b-1ebf66c13252",
+      "Name": "Nature",
+      "InitialState": "bdfa98d2-73ba-4947-b917-aec76bc959b8",
+      "Collision": [
+        {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        {
+          "X": 1.0,
+          "Y": 0.0
+        },
+        {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        {
+          "X": 0.0,
+          "Y": 1.0
+        }
+      ],
+      "Size": {
+        "Width": 1,
+        "Height": 1
+      },
+      "Animations": [
+        {
+          "Id": "5b7cc41d-125c-4873-b374-34b1b9474ac1",
+          "Name": "Visible",
+          "Frames": [
+            {
+              "Duration": 1.0,
+              "Source": "Tiles/TestTiles.dcsg",
+              "SpriteId": "99fd3461-f234-432d-baf6-21fa943915ae",
+              "Origin": {
+                "Anchor": {
+                  "X": 0,
+                  "Y": 0
+                },
+                "Offset": {
+                  "X": 0,
+                  "Y": 0
+                }
+              },
+              "Slots": []
+            }
+          ]
+        },
+        {
+          "Id": "0940b7e1-96a4-4539-a619-42adbfcf08fb",
+          "Name": "Hidden",
+          "Frames": []
+        }
+      ],
+      "States": [
+        {
+          "Id": "bdfa98d2-73ba-4947-b917-aec76bc959b8",
+          "Name": "Visible",
+          "Animation": "5b7cc41d-125c-4873-b374-34b1b9474ac1",
+          "Transitions": [
+            {
+              "Id": "007c9ca9-a15b-4681-9fbf-16760b5c0457",
+              "Name": "Hide",
+              "TargetState": "16d79780-97e7-41ca-af43-327c2e2393eb",
+              "When": {
+                "Condition": {
+                  "Not": {
+                    "Value": {
+                      "Variable": "ac98ca66-95ac-4887-bbe4-0d97b453d713"
+                    }
+                  }
+                }
+              }
+            }
+          ],
+          "OnEnter": [],
+          "OnUpdate": [],
+          "OnExit": []
+        },
+        {
+          "Id": "16d79780-97e7-41ca-af43-327c2e2393eb",
+          "Name": "Hidden",
+          "Animation": "0940b7e1-96a4-4539-a619-42adbfcf08fb",
+          "Transitions": [
+            {
+              "Id": "e1b9625d-0717-457e-ba78-11b32125184a",
+              "Name": "Show",
+              "TargetState": "bdfa98d2-73ba-4947-b917-aec76bc959b8",
+              "When": {
+                "Condition": {
+                  "Value": {
+                    "Variable": "ac98ca66-95ac-4887-bbe4-0d97b453d713"
+                  }
+                }
+              }
+            }
+          ],
+          "OnEnter": [],
+          "OnUpdate": [],
+          "OnExit": []
+        }
+      ],
+      "Variables": []
+    },
+    {
+      "Id": "02fdec63-fe4f-4a2a-95bc-5dcbf7893f00",
+      "Name": "Technology",
+      "InitialState": "5cca2691-e43c-48d5-b099-446a5f2dd3a0",
+      "Collision": [
+        {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        {
+          "X": 1.0,
+          "Y": 0.0
+        },
+        {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        {
+          "X": 0.0,
+          "Y": 1.0
+        }
+      ],
+      "Size": {
+        "Width": 1,
+        "Height": 1
+      },
+      "Animations": [
+        {
+          "Id": "e7d7b21b-9692-4029-a611-a62fc3d2991a",
+          "Name": "Visible",
+          "Frames": [
+            {
+              "Duration": 1.0,
+              "Source": "Tiles/TestTiles.dcsg",
+              "SpriteId": "8941a227-2bba-48f0-ae62-b1a26ca949c4",
+              "Origin": {
+                "Anchor": {
+                  "X": 0,
+                  "Y": 0
+                },
+                "Offset": {
+                  "X": 0,
+                  "Y": 0
+                }
+              },
+              "Slots": []
+            }
+          ]
+        },
+        {
+          "Id": "2ff7b748-3eaf-46ca-a820-1500b2c0f977",
+          "Name": "Hidden",
+          "Frames": []
+        }
+      ],
+      "States": [
+        {
+          "Id": "5cca2691-e43c-48d5-b099-446a5f2dd3a0",
+          "Name": "Visible",
+          "Animation": "e7d7b21b-9692-4029-a611-a62fc3d2991a",
+          "Transitions": [
+            {
+              "Id": "917b8beb-7c6d-4e03-a782-1b5e2fd57fb3",
+              "Name": "Hide",
+              "TargetState": "bb54b810-a03d-4956-9a04-c3bf32889c4c",
+              "When": {
+                "Condition": {
+                  "Value": {
+                    "Variable": "ac98ca66-95ac-4887-bbe4-0d97b453d713"
+                  }
+                }
+              }
+            }
+          ],
+          "OnEnter": [],
+          "OnUpdate": [],
+          "OnExit": []
+        },
+        {
+          "Id": "bb54b810-a03d-4956-9a04-c3bf32889c4c",
+          "Name": "Hidden",
+          "Animation": "2ff7b748-3eaf-46ca-a820-1500b2c0f977",
+          "Transitions": [
+            {
+              "Id": "e241b8c7-ba27-45d8-9f57-b4441236c4f4",
+              "Name": "Show",
+              "TargetState": "5cca2691-e43c-48d5-b099-446a5f2dd3a0",
+              "When": {
+                "Condition": {
+                  "Not": {
+                    "Value": {
+                      "Variable": "ac98ca66-95ac-4887-bbe4-0d97b453d713"
+                    }
+                  }
+                }
+              }
+            }
+          ],
+          "OnEnter": [],
+          "OnUpdate": [],
+          "OnExit": []
+        }
+      ],
+      "Variables": []
+    },
+    {
+      "Id": "557f5d28-2ffe-4401-b72a-2c1f79ee740a",
+      "Name": "Hybrid",
+      "InitialState": "a2c4ebe9-14c4-4d6b-8142-9c54f5058f77",
+      "Collision": [
+        {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        {
+          "X": 1.0,
+          "Y": 0.0
+        },
+        {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        {
+          "X": 0.0,
+          "Y": 1.0
+        }
+      ],
+      "Size": {
+        "Width": 1,
+        "Height": 1
+      },
+      "Animations": [
+        {
+          "Id": "1f3deae7-13c1-4101-a1b2-2ffd2a8645de",
+          "Name": "Hybrid",
+          "Frames": [
+            {
+              "Duration": 1.0,
+              "Source": "Tiles/TestTiles.dcsg",
+              "SpriteId": "1bec9c58-cbc0-468c-801f-16e14f1dcefd",
+              "Origin": {
+                "Anchor": {
+                  "X": 0,
+                  "Y": 0
+                },
+                "Offset": {
+                  "X": 0,
+                  "Y": 0
+                }
+              },
+              "Slots": []
+            }
+          ]
+        },
+        {
+          "Id": "58d59ec2-49fa-4c52-91d4-4662bb3674d8",
+          "Name": "Nature",
+          "Frames": [
+            {
+              "Duration": 1.0,
+              "Source": "Tiles/TestTiles.dcsg",
+              "SpriteId": "99fd3461-f234-432d-baf6-21fa943915ae",
+              "Origin": {
+                "Anchor": {
+                  "X": 0,
+                  "Y": 0
+                },
+                "Offset": {
+                  "X": 0,
+                  "Y": 0
+                }
+              },
+              "Slots": []
+            }
+          ]
+        },
+        {
+          "Id": "0514082b-a8d0-4bae-b268-031c314ba2cb",
+          "Name": "Technology",
+          "Frames": [
+            {
+              "Duration": 1.0,
+              "Source": "Tiles/TestTiles.dcsg",
+              "SpriteId": "8941a227-2bba-48f0-ae62-b1a26ca949c4",
+              "Origin": {
+                "Anchor": {
+                  "X": 0,
+                  "Y": 0
+                },
+                "Offset": {
+                  "X": 0,
+                  "Y": 0
+                }
+              },
+              "Slots": []
+            }
+          ]
+        }
+      ],
+      "States": [
+        {
+          "Id": "a2c4ebe9-14c4-4d6b-8142-9c54f5058f77",
+          "Name": "Default RENAME",
+          "Animation": "1f3deae7-13c1-4101-a1b2-2ffd2a8645de",
+          "Transitions": [
+            {
+              "Id": "f864b9e6-afe5-4276-af83-927392099921",
+              "Name": "Nature",
+              "TargetState": "2d38abfd-ea44-480f-a463-3b93493a1a60",
+              "When": {
+                "Condition": {
+                  "Value": {
+                    "Variable": "ac98ca66-95ac-4887-bbe4-0d97b453d713"
+                  }
+                }
+              }
+            },
+            {
+              "Id": "93efc9b7-86e4-4d25-b3c8-fcf6b3d7f62a",
+              "Name": "Technology",
+              "TargetState": "b3e410b2-dd18-40c0-a2a0-697bc8410ddc",
+              "When": {
+                "Condition": {
+                  "Not": {
+                    "Value": {
+                      "Variable": "ac98ca66-95ac-4887-bbe4-0d97b453d713"
+                    }
+                  }
+                }
+              }
+            }
+          ],
+          "OnEnter": [],
+          "OnUpdate": [],
+          "OnExit": []
+        },
+        {
+          "Id": "2d38abfd-ea44-480f-a463-3b93493a1a60",
+          "Name": "Nature",
+          "Animation": "00000000-0000-0000-0000-000000000000",
+          "Transitions": [
+            {
+              "Id": "ca96f0af-f61e-4ea1-b075-08bbf1fa9078",
+              "Name": "Technology",
+              "TargetState": "b3e410b2-dd18-40c0-a2a0-697bc8410ddc",
+              "When": {
+                "Condition": {
+                  "Not": {
+                    "Value": {
+                      "Variable": "ac98ca66-95ac-4887-bbe4-0d97b453d713"
+                    }
+                  }
+                }
+              }
+            }
+          ],
+          "OnEnter": [],
+          "OnUpdate": [],
+          "OnExit": []
+        },
+        {
+          "Id": "b3e410b2-dd18-40c0-a2a0-697bc8410ddc",
+          "Name": "Technology",
+          "Animation": "0514082b-a8d0-4bae-b268-031c314ba2cb",
+          "Transitions": [
+            {
+              "Id": "76bccdcd-49c6-4279-b02f-b4213966dc9c",
+              "Name": "Nature",
+              "TargetState": "2d38abfd-ea44-480f-a463-3b93493a1a60",
+              "When": {
+                "Condition": {
+                  "Value": {
+                    "Variable": "ac98ca66-95ac-4887-bbe4-0d97b453d713"
+                  }
+                }
+              }
+            }
+          ],
+          "OnEnter": [],
+          "OnUpdate": [],
+          "OnExit": []
+        }
+      ],
+      "Variables": []
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "FileVersion": 1,
+  "Name": "Gameplay",
+  "Id": "ccbbc91d-3dd2-4afe-94e7-91b838e2f4cf",
+  "Size": {
+    "Width": 256,
+    "Height": 240
+  },
+  "BackgroundColor": {
+    "Red": 0,
+    "Green": 0,
+    "Blue": 0,
+    "Alpha": 255
+  },
+  "Elements": [
+    {
+      "Name": "Level",
+      "Id": "e7a01629-811d-4e13-bbc2-9b08921d315c",
+      "Type": "LevelView",
+      "Region": {
+        "X": 0,
+        "Y": 43,
+        "Width": 256,
+        "Height": 144
+      }
+    }
+  ],
+  "Events": []
+}

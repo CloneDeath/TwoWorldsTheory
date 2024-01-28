@@ -1,0 +1,33 @@
+{
+  "FileVersion": 1,
+  "File": "TestTiles.png",
+  "Width": 16,
+  "Height": 16,
+  "XSeparation": 0,
+  "YSeparation": 0,
+  "XOffset": 0,
+  "YOffset": 0,
+  "Sprites": [
+    {
+      "Id": "99fd3461-f234-432d-baf6-21fa943915ae",
+      "X": 0,
+      "Y": 0,
+      "Name": "Nature",
+      "FlipHorizontal": false
+    },
+    {
+      "Id": "8941a227-2bba-48f0-ae62-b1a26ca949c4",
+      "X": 1,
+      "Y": 0,
+      "Name": "Technology",
+      "FlipHorizontal": false
+    },
+    {
+      "Id": "1bec9c58-cbc0-468c-801f-16e14f1dcefd",
+      "X": 2,
+      "Y": 0,
+      "Name": "Hybrid",
+      "FlipHorizontal": false
+    }
+  ]
+}
