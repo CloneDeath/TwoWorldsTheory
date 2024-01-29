@@ -310,7 +310,7 @@
       "States": [
         {
           "Id": "a2c4ebe9-14c4-4d6b-8142-9c54f5058f77",
-          "Name": "Default RENAME",
+          "Name": "Hybrid",
           "Animation": "1f3deae7-13c1-4101-a1b2-2ffd2a8645de",
           "Transitions": [
             {
@@ -347,7 +347,7 @@
         {
           "Id": "2d38abfd-ea44-480f-a463-3b93493a1a60",
           "Name": "Nature",
-          "Animation": "00000000-0000-0000-0000-000000000000",
+          "Animation": "58d59ec2-49fa-4c52-91d4-4662bb3674d8",
           "Transitions": [
             {
               "Id": "ca96f0af-f61e-4ea1-b075-08bbf1fa9078",

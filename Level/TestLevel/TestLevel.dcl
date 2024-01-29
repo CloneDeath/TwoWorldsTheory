@@ -7,9 +7,9 @@
   "AreaWidth": 16,
   "AreaHeight": 9,
   "StartingPosition": {
-    "AreaId": "00000000-0000-0000-0000-000000000000",
-    "X": 0,
-    "Y": 0
+    "AreaId": "e750a98f-ccd6-4623-911a-4a577d7a87f3",
+    "X": 2,
+    "Y": 7
   },
   "Tiles": [],
   "Areas": [
