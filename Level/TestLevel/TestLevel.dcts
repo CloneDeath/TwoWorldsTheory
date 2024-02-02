@@ -79,7 +79,11 @@
               }
             }
           ],
-          "OnEnter": [],
+          "OnEnter": [
+            {
+              "Self": "EnableWorldCollisions"
+            }
+          ],
           "OnUpdate": [],
           "OnExit": []
         },
@@ -101,7 +105,11 @@
               }
             }
           ],
-          "OnEnter": [],
+          "OnEnter": [
+            {
+              "Self": "DisableWorldCollisions"
+            }
+          ],
           "OnUpdate": [],
           "OnExit": []
         }
@@ -182,7 +190,11 @@
               }
             }
           ],
-          "OnEnter": [],
+          "OnEnter": [
+            {
+              "Self": "EnableWorldCollisions"
+            }
+          ],
           "OnUpdate": [],
           "OnExit": []
         },
@@ -206,7 +218,11 @@
               }
             }
           ],
-          "OnEnter": [],
+          "OnEnter": [
+            {
+              "Self": "DisableWorldCollisions"
+            }
+          ],
           "OnUpdate": [],
           "OnExit": []
         }

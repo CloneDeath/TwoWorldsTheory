@@ -19,11 +19,36 @@
       "Type": "LevelView",
       "Region": {
         "X": 0,
-        "Y": 43,
+        "Y": 24,
         "Width": 256,
-        "Height": 144
+        "Height": 192
       }
     }
   ],
-  "Events": []
+  "Events": [
+    {
+      "Name": "Switch World",
+      "When": {
+        "Input": {
+          "State": "Pressed",
+          "Action": "Attack"
+        }
+      },
+      "Then": [
+        {
+          "SetGlobalVariable": {
+            "Value": {
+              "Not": {
+                "Value": {
+                  "Variable": "ac98ca66-95ac-4887-bbe4-0d97b453d713"
+                }
+              }
+            },
+            "VariableId": "ac98ca66-95ac-4887-bbe4-0d97b453d713",
+            "Type": "Boolean"
+          }
+        }
+      ]
+    }
+  ]
 }

@@ -3,10 +3,10 @@
   "Name": "Player",
   "Enabled": true,
   "WalkSpeed": 6.0,
-  "JumpHeight": 6.0,
-  "Gravity": 10.0,
-  "Height": 16.0,
-  "Width": 8.0,
+  "JumpHeight": 4.8,
+  "Gravity": 40.0,
+  "Height": 32.0,
+  "Width": 16.0,
   "DefaultWeapon": "",
   "Animations": [
     {
@@ -14,7 +14,7 @@
       "Name": "Idle",
       "Frames": [
         {
-          "Duration": 1.0,
+          "Duration": 0.01,
           "Source": "Player.dcsg",
           "SpriteId": "9963bf78-02c0-48b9-805e-d1e7ff7f4262",
           "Origin": {
