@@ -27,18 +27,146 @@
               "Y": 0
             }
           },
-          "Slots": [],
-          "HitBox": {
-            "X": 4,
-            "Y": 0,
-            "Width": 8,
-            "Height": 0
-          }
+          "Slots": []
+        }
+      ]
+    },
+    {
+      "Id": "388ce829-4ac6-4c04-9186-92e3471a06ab",
+      "Name": "Walk",
+      "Frames": [
+        {
+          "Duration": 0.1,
+          "Source": "Player.dcsg",
+          "SpriteId": "e093fa69-684b-42c6-acff-bebab04b077a",
+          "Origin": {
+            "Anchor": {
+              "X": 0,
+              "Y": 1
+            },
+            "Offset": {
+              "X": 0,
+              "Y": 0
+            }
+          },
+          "Slots": []
+        },
+        {
+          "Duration": 0.1,
+          "Source": "Player.dcsg",
+          "SpriteId": "8ee4bb49-374c-41f9-b45a-e9178a71299e",
+          "Origin": {
+            "Anchor": {
+              "X": 0,
+              "Y": 1
+            },
+            "Offset": {
+              "X": 0,
+              "Y": 0
+            }
+          },
+          "Slots": []
+        },
+        {
+          "Duration": 0.1,
+          "Source": "Player.dcsg",
+          "SpriteId": "0c8a8b6e-b89e-4a36-9777-dd0566856e1f",
+          "Origin": {
+            "Anchor": {
+              "X": 0,
+              "Y": 1
+            },
+            "Offset": {
+              "X": 0,
+              "Y": 0
+            }
+          },
+          "Slots": []
+        },
+        {
+          "Duration": 0.1,
+          "Source": "Player.dcsg",
+          "SpriteId": "076dbd8f-d9d7-444b-a6db-e681bdc1de8a",
+          "Origin": {
+            "Anchor": {
+              "X": 0,
+              "Y": 1
+            },
+            "Offset": {
+              "X": 0,
+              "Y": 0
+            }
+          },
+          "Slots": []
+        },
+        {
+          "Duration": 0.1,
+          "Source": "Player.dcsg",
+          "SpriteId": "d9ac5bf4-0757-4c9f-8375-3b9ea5157640",
+          "Origin": {
+            "Anchor": {
+              "X": 0,
+              "Y": 1
+            },
+            "Offset": {
+              "X": 0,
+              "Y": 0
+            }
+          },
+          "Slots": []
+        },
+        {
+          "Duration": 0.1,
+          "Source": "Player.dcsg",
+          "SpriteId": "a4ee9227-c370-4025-919a-de69e049e3fb",
+          "Origin": {
+            "Anchor": {
+              "X": 0,
+              "Y": 1
+            },
+            "Offset": {
+              "X": 0,
+              "Y": 0
+            }
+          },
+          "Slots": []
+        },
+        {
+          "Duration": 0.1,
+          "Source": "Player.dcsg",
+          "SpriteId": "b74fc39d-b7c4-410b-bbf0-899202d9ebf7",
+          "Origin": {
+            "Anchor": {
+              "X": 0,
+              "Y": 1
+            },
+            "Offset": {
+              "X": 0,
+              "Y": 0
+            }
+          },
+          "Slots": []
+        },
+        {
+          "Duration": 0.1,
+          "Source": "Player.dcsg",
+          "SpriteId": "1e36097a-3b0f-4da1-97fb-d2a2a8e16b79",
+          "Origin": {
+            "Anchor": {
+              "X": 0,
+              "Y": 1
+            },
+            "Offset": {
+              "X": 0,
+              "Y": 0
+            }
+          },
+          "Slots": []
         }
       ]
     }
   ],
-  "WalkAnimation": "2546359c-96d1-4907-98d2-682927230a87",
+  "WalkAnimation": "388ce829-4ac6-4c04-9186-92e3471a06ab",
   "IdleAnimation": "2546359c-96d1-4907-98d2-682927230a87",
   "JumpAnimation": "2546359c-96d1-4907-98d2-682927230a87",
   "CrouchAnimation": "2546359c-96d1-4907-98d2-682927230a87",
